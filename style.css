@@ -1,0 +1,125 @@
+
+head{
+    background-color: aqua;
+}
+header{
+    width: 940px;
+    padding: 25px;
+   
+}
+
+.titulo{
+
+    margin: 25px;
+    font-size: 4em;
+    color: white;
+}
+
+.titulo:hover{ 
+    
+    color:  rgb(32, 96, 105);
+    transition: 1s all;
+    
+
+
+}
+
+body{
+    width: 100%;
+    
+    background: linear-gradient(pink, white)
+
+}
+
+main{
+    margin: 10px 15px 15px 60px;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+    height: 40%;
+    width: 40%;
+    
+}
+
+div{
+    margin: 10px 15px 15px 60px;
+    padding:20px;
+    display: inline-block;
+    vertical-align: top;
+    height: 40%;
+    width: 40%;
+   
+}
+
+#entrada{   
+    width: 700px;
+    height: 400px;
+    font-size: 25px;
+    border:9px solid rgb(219, 136, 150);
+    border-radius: 30px;
+    font-family: cursive;
+    font-size: 20; 
+}
+
+#entrada::placeholder{
+    color: rgb(161, 222, 234);
+}
+
+#entrada:hover{
+    border-color: rgb(40, 167, 184);
+    transition: 1s all;
+    
+}
+
+p{
+    font-size: 20px;
+
+}
+.boton{
+    width: 40%;
+    margin: 5px;
+    padding: 15px 5px;
+    font-size: 18px;
+    font-weight:bold;
+    color:rgb(32, 96, 105);
+    background: rgb(161, 222, 234);
+    border: 5px;
+    border-radius: 8px;
+    transition: 1s all;
+    cursor: pointer;
+    
+}
+
+.boton:hover{
+    background: pink;
+    transform: scale(1.10);
+}
+
+#salida{
+    border:9px solid rgb(219, 136, 150);
+    border-radius: 30px;
+    width: 700px;
+    height: 400px;
+    font-size: 25px;
+   
+}
+
+
+#salida:hover{
+    border-color: rgb(40, 167, 184);
+    transition: 1s all;
+
+}
+footer{
+    text-align: center;
+    padding: 40px;
+    background-color: rgb(40, 167, 184);
+    
+}
+
+.miNombre{
+    font-size: 25px;
+    color: azure;
+    
+}
+
